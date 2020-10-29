@@ -24,6 +24,7 @@ footer {
 
 .footer-text {
     text-align:center;
+    font-style: italic;
 }
 
 
@@ -45,4 +46,17 @@ footer {
         float: left;
         padding: 20px;
     }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lead {
+    font-style: italic;
+}
+
+.navbar {
+    position:fixed;
+    width:100%;
 }
