@@ -2,6 +2,11 @@
     width: 75%;
 }
 
+.aboutmebox {
+    width: 75%;
+    margin: 0 auto;
+}
+
 .project-image {
     float: left;
     padding: 20px;
@@ -27,6 +32,16 @@ footer {
     font-style: italic;
 }
 
+.headshot {
+    float:left;
+}
+
+.aboutme {
+    float: left;
+    padding: 20px;
+    width: 45%;
+}
+
 
 @media screen and (max-width: 1500px) {
 
@@ -46,6 +61,19 @@ footer {
         float: left;
         padding: 20px;
     }
+
+    .headshot {
+        width: 100%;
+        float: left;
+        object-fit: cover;
+        padding: 20px;
+    }
+
+    .aboutme {
+        width: 100%;
+        float: left;
+        padding: 20px;
+    }
 }
 
 body {
@@ -59,4 +87,22 @@ body {
 .navbar {
     position:fixed;
     width:100%;
+}
+
+.jumbotron {
+    background-image: url(https://lh3.googleusercontent.com/proxy/JB9xj74QQUt8-p_BDSEvOU0Bzyd7MEMiuJwaMogBzb3pkg1P_Il4J_rXErn_rqJwQ8xscavTCV-4eKrsJFq3-mD4ssApOnsni50uQk4DX5og7XIJIdgJgQv4Aydk2uNb0vo);
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position:center;
+}
+
+.headshot {
+    width:33%;
+    float:left;
+}
+
+.paragraph-abme {
+    width: 66%;
+    float:left;
 }
