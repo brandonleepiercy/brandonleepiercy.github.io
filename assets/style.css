@@ -2,6 +2,47 @@
     width: 75%;
 }
 
-.p1para {
-    padding:20;
+.project-image {
+    float: left;
+    padding: 20px;
+    width: 33%;
+    object-fit: cover;
+}
+
+.project-desc {
+    float:left;
+    padding: 20px;
+    width: 50%;
+}
+
+footer {
+    background-color: #808080;
+    margin:0 auto;
+    padding: 20px;
+
+}
+
+.footer-text {
+    text-align:center;
+}
+
+
+@media screen and (max-width: 1500px) {
+
+    body {
+        background-color: #f8f8f8;
+    }
+
+    .project-image {
+        width: 100%;
+        float: left;
+        object-fit: cover;
+        padding: 20px;
+    }
+
+    .project-desc {
+        width: 100%;
+        float: left;
+        padding: 20px;
+    }
 }
