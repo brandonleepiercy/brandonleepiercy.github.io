@@ -69,8 +69,13 @@ body {
 
 .jumbotron {
     background-image: url('images/jumbotronimage.jpg');
-    background-position: 50% 20%;
+    background-position: 50% 5%;
     background-size: cover;
+}
+
+.jumbotron-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .headshot {
