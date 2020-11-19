@@ -47,6 +47,41 @@ footer {
     margin: 0 auto;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lead {
+    font-style: italic;
+    margin: 50px;
+    color: white;
+}
+
+.display-4 {
+    margin: 100px;
+    color: white;
+}
+
+.navbar {
+    position:fixed;
+    width:100%;
+}
+
+.jumbotron {
+    background-image: url('images/jumbotronimage.jpg');
+    background-position: 50% 20%;
+    background-size: cover;
+}
+
+.headshot {
+    width:33%;
+    float:left;
+}
+
+.paragraph-abme {
+    width: 66%;
+    float:left;
+}
 
 @media screen and (max-width: 1500px) {
 
@@ -59,12 +94,14 @@ footer {
         float: left;
         object-fit: cover;
         padding: 20px;
+        margin: 0 auto;
     }
 
     .project-desc {
         width: 100%;
         float: left;
         padding: 20px;
+        margin: 0 auto;
     }
 
     .headshot {
@@ -72,42 +109,13 @@ footer {
         float: left;
         object-fit: cover;
         padding: 20px;
+        margin: 0 auto;
     }
 
     .aboutme {
         width: 100%;
         float: left;
         padding: 20px;
+        margin: 0 auto;
     }
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.lead {
-    font-style: italic;
-}
-
-.navbar {
-    position:fixed;
-    width:100%;
-}
-
-.jumbotron {
-    background-image: url(https://lh3.googleusercontent.com/proxy/JB9xj74QQUt8-p_BDSEvOU0Bzyd7MEMiuJwaMogBzb3pkg1P_Il4J_rXErn_rqJwQ8xscavTCV-4eKrsJFq3-mD4ssApOnsni50uQk4DX5og7XIJIdgJgQv4Aydk2uNb0vo);
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    object-position:center;
-}
-
-.headshot {
-    width:33%;
-    float:left;
-}
-
-.paragraph-abme {
-    width: 66%;
-    float:left;
 }
