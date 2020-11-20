@@ -1,76 +1,3 @@
-.project-box {
-    width: 75%;
-}
-
-.nav-item {
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.aboutmebox {
-    width: 75%;
-    margin: 0 auto;
-}
-
-.image-box {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.project-image {
-    display: block;
-    max-width: 100%;
-}
-
-.project-desc {
-    float:left;
-    padding: 20px;
-    width: 50%;
-}
-
-.project-heading {
-    color:white;
-    text-align: center;
-}
-
-.project-text {
-    color: white;
-}
-
-.link-box {
-    text-align: center;
-}
-
-footer {
-    background-color: rgb(193,137,169);
-    margin:0 auto;
-    padding: 20px;
-}
-
-.footer-text {
-    text-align:center;
-    font-style: italic;
-    color: white;
-}
-
-.headshot {
-    float:left;
-}
-
-.aboutme {
-    float: left;
-    padding: 20px;
-    width: 45%;
-}
-
-.email-form {
-    width: 50%;
-    margin: 0 auto;
-}
-
 body {
     font-family: 'Heebo', sans-serif;
     background-color:rgb(187, 191, 202);
@@ -112,6 +39,93 @@ body {
     padding-bottom: 50px;
 }
 
+.project-box {
+    width: 75%;
+}
+
+.nav-item {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.aboutmebox {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.image-box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.project-image {
+    display: block;
+    max-width: 100%;
+    border: rgb(193, 137, 169) 3px solid;
+    padding: 0%;
+}
+
+.project-desc {
+    float:left;
+    padding: 20px;
+    width: 50%;
+}
+
+.project-heading {
+    color:white;
+    text-align: center;
+    font-style: italic;
+}
+
+.project-text {
+    color: white;
+}
+
+.link-box {
+    text-align: center;
+}
+
+.project-link {
+    color:  rgb(193,137,169);
+    font-style: italic;
+}
+
+.project-link:hover {
+    color:  white;
+}
+
+footer {
+    background-color: rgb(193,137,169);
+    margin:0 auto;
+    padding: 20px;
+}
+
+.footer-text {
+    text-align:center;
+    font-style: italic;
+    color: white;
+}
+
+.headshot {
+    float:left;
+}
+
+.aboutme {
+    float: left;
+    padding: 20px;
+    width: 45%;
+}
+
+.email-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
 .headshot {
     width:33%;
     float:left;
@@ -129,7 +143,6 @@ body {
         width: 100%;
         float: left;
         object-fit: cover;
-        padding: 20px;
         margin: 0 auto;
     }
 
