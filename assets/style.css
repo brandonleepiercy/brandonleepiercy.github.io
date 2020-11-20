@@ -14,17 +14,34 @@
     margin: 0 auto;
 }
 
+.image-box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 .project-image {
-    float: left;
-    padding: 20px;
-    width: 33%;
-    object-fit: cover;
+    display: block;
+    max-width: 100%;
 }
 
 .project-desc {
     float:left;
     padding: 20px;
     width: 50%;
+}
+
+.project-heading {
+    color:white;
+    text-align: center;
+}
+
+.project-text {
+    color: white;
+}
+
+.link-box {
+    text-align: center;
 }
 
 footer {
@@ -76,6 +93,7 @@ body {
     position:fixed;
     width:100%;
     background-color: rgb(193,137,169);
+    z-index: 1;
 }
 
 .jumbotron-text {
@@ -94,14 +112,6 @@ body {
     padding-bottom: 50px;
 }
 
-.project-heading {
-    color:white;
-}
-
-.project-text {
-    color: white;
-}
-
 .headshot {
     width:33%;
     float:left;
@@ -112,7 +122,7 @@ body {
     float:left;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 990px) {
 
 
     .project-image {
