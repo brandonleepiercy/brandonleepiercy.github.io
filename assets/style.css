@@ -122,13 +122,29 @@ footer {
 }
 
 .headshot {
-    float:left;
+    background-image: url('https://www.sapanalytics.cloud/wp-content/uploads/2018/03/500x500.jpg');
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.headshot-image {
+    display: flex;
+    object-fit: cover;
 }
 
 .aboutme {
     float: left;
     padding: 20px;
-    width: 45%;
+    padding-top: 120px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 150px;
 }
 
 .email-form {
@@ -136,20 +152,33 @@ footer {
     margin: 0 auto;
 }
 
-
-
-.headshot {
-    width:33%;
-    float:left;
+.about-text {
+    color: white;
 }
 
-.paragraph-abme {
-    width: 66%;
-    float:left;
+@media screen and (max-width: 1760px) {
+
+    .aboutme {
+        width: 100%;
+        float: left;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .headshot {
+        width: 50%;
+        float: left;
+        object-fit: cover;
+        padding: 20px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
 }
 
 @media screen and (max-width: 990px) {
-
 
     .project-image {
         width: 100%;
@@ -166,11 +195,13 @@ footer {
     }
 
     .headshot {
-        width: 100%;
+        width: 50%;
         float: left;
         object-fit: cover;
-        padding: 20px;
         margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
     }
 
     .aboutme {
