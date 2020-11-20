@@ -109,6 +109,14 @@ footer {
     color: white;
 }
 
+.footer-link {
+    color: white;
+}
+
+.footer-link:hover {
+    color: rgb(234,150,164);
+}
+
 .headshot {
     float:left;
 }
