@@ -23,6 +23,17 @@ body {
     z-index: 1;
 }
 
+.nav-name {
+    font-size: 35px;
+}
+
+.nav-item {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .jumbotron-text {
     background-color: rgb(193,137,169);
     margin: 20px;
@@ -41,13 +52,6 @@ body {
 
 .project-box {
     width: 75%;
-}
-
-.nav-item {
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 .aboutmebox {
