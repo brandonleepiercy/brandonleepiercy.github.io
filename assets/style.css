@@ -59,6 +59,11 @@ body {
     margin: 0 auto;
 }
 
+.about-me-links {
+    width: 75;
+    margin: 0 auto;
+}
+
 .image-box {
     justify-content: center;
     align-items: center;
@@ -122,13 +127,14 @@ footer {
 }
 
 .headshot {
-    background-image: url('https://www.sapanalytics.cloud/wp-content/uploads/2018/03/500x500.jpg');
+    background-image: url('images/me.jpg');
     height: 500px;
     width: 500px;
     margin: 10px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 50% 30%;
+    border: rgb(193,137,169) solid 5px;
 }
 
 .headshot-image {
