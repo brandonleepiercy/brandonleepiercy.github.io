@@ -2,6 +2,13 @@
     width: 75%;
 }
 
+.nav-item {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .aboutmebox {
     width: 75%;
     margin: 0 auto;
@@ -21,7 +28,7 @@
 }
 
 footer {
-    background-color: #808080;
+    background-color: rgb(193,137,169);
     margin:0 auto;
     padding: 20px;
 
@@ -49,6 +56,7 @@ footer {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color:rgb(187, 191, 202);
 }
 
 .lead {
@@ -60,16 +68,24 @@ body {
 .display-4 {
     margin: 100px;
     color: white;
+    font-style: italic;
 }
 
 .navbar {
     position:fixed;
     width:100%;
+    background-color: rgb(193,137,169);
+}
+
+.jumbotron-text {
+    background-color: rgb(193,137,169);
+    padding: 10px;
+    margin: 10px;
 }
 
 .jumbotron {
     background-image: url('images/jumbotronimage.jpg');
-    background-position: 50% 5%;
+    background-position: 50% 0%;
     background-size: cover;
 }
 
@@ -90,9 +106,6 @@ body {
 
 @media screen and (max-width: 1500px) {
 
-    body {
-        background-color: #f8f8f8;
-    }
 
     .project-image {
         width: 100%;
