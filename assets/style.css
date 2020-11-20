@@ -31,12 +31,12 @@ footer {
     background-color: rgb(193,137,169);
     margin:0 auto;
     padding: 20px;
-
 }
 
 .footer-text {
     text-align:center;
     font-style: italic;
+    color: white;
 }
 
 .headshot {
@@ -55,7 +55,7 @@ footer {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Heebo', sans-serif;
     background-color:rgb(187, 191, 202);
 }
 
@@ -69,6 +69,7 @@ body {
     margin: 100px;
     color: white;
     font-style: italic;
+    font-weight: 900;
 }
 
 .navbar {
@@ -79,8 +80,7 @@ body {
 
 .jumbotron-text {
     background-color: rgb(193,137,169);
-    padding: 10px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .jumbotron {
@@ -92,6 +92,14 @@ body {
 .jumbotron-container {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.project-heading {
+    color:white;
+}
+
+.project-text {
+    color: white;
 }
 
 .headshot {
